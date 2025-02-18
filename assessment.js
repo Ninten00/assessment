@@ -25,7 +25,7 @@ assessmentButton.addEventListener(
     //make diagnostic results display area
    resultDivision.innerText = '';
     const heading = document.createElement('h3');
-    heading.innerText = '診断結果';
+    heading.innerText = 'Diagnosis result';
     resultDivision.appendChild(heading);
 
     const paragraph = document.createElement('p');
